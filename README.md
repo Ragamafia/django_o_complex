@@ -19,4 +19,9 @@ django_o_complex
 
 Миграции и запуск сервера python manage.py migrate python manage.py runserver Перейдите по адресу http://127.0.0.1:8000/ в браузере.
 
-Проект упакован в Docker
+
+Для запуска приложения вы можете использовать Docker.
+1) Откройте терминал в каталоге с Dockerfile
+2) Выполните docker build -t django_o_complex_weather .
+3) Выполните docker run -d -p 8000:8000 --name django_app_container django_o_complex_weather
+4) Приложение будет доступно на адресе http://localhost:8000/
