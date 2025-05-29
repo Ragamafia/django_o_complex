@@ -1,4 +1,0 @@
-django
-requests
-fake-useragent
-python-dotenv
